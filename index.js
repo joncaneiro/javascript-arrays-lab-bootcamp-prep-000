@@ -20,7 +20,7 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  kittens.concat(name)
+  var moreKittens = kittens.concat(name)
 }
 
 function prependKitten(name) {
