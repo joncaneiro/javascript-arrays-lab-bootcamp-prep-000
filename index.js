@@ -20,19 +20,19 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  console.log(kittens.concat(name))
+  kittens.concat(name)
 }
 
 function prependKitten(name) {
-  console.log(name.concat(kittens))
+  name.concat(kittens)
 }
 
 function removeLastKitten() {
-  console.log(kittens.slice(-1))
+  kittens.slice(-1)
 }
 
 function removeFirstKitten() {
-  console.log(kittens.slice(1))
+  kittens.slice(1)
 }
 
 
